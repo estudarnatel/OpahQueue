@@ -1,0 +1,109 @@
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+[class^="grupo"] {
+    width: 10%;
+    height: 10%;
+}
+
+.centered {
+    position: fixed; /* fixed or absolute */
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%, -50%);    
+    border: solid orange 2px;
+    border-radius: 25px;
+    padding: 10px;
+  }
+
+#atdr, #access, #furar {
+    background-color: orange;
+    color: black;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+#SAIR, #manter {
+    border: solid orange 2px;
+    background-color: black;
+    color: orange;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+#wsb1, #wsb2, #wsb3 {
+    background-color: black;
+    opacity: 1;
+}
+
+#q1, #mc, #wsb4, #wsb5 {
+    border: solid white 2px;
+    background-color: white;
+    color: black;
+    opacity: 1;
+}
+
+#modalBorder {
+    margin: auto;
+    padding: 10px;
+    width: 10%;
+    height: 40%;
+    border: solid orange 2px;
+    border-radius: 25px;
+    background-color: white;
+    opacity: 1;
+}
+
+#modalBorder2 {
+    margin: auto;
+    padding: 10px;
+    width: 10%;
+    height: 40%;
+    border: solid white 2px;
+    border-radius: 25px;
+    background-color: gray;
+    opacity: 1;
+}
+
+#modalBorder3 {
+    margin: auto;
+    padding: 10px;
+    width: 75%;
+    height: 40%;
+    border: solid white 2px;
+    border-radius: 25px;
+    background-color: gray;
+    opacity: 1;
+}
+
+.modalContent3{
+    border: solid gray 2px;
+    background-color: gray;
+    color: black;
+    opacity: 1;
+}
+
+.autoM {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#putUser, #editUserButton, #contadorButton, #addPicButton {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
